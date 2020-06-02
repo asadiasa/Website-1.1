@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Playlist Script";
+  src: url("./playlist-font/Playlist Script.otf");
+  format('opentype');
+}
+body {
+  background-color: #DDB0a7;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar {
+  padding-right: 60px;
+}
+
+.navbar, li {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  word-spacing: 60px;
+  left:-500px;
+  color: #0A3D64;
+}
+
+.navbar a {
+  color: #0A3D64;
+}
+
+.title {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-family: "Playlist Script", sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  margin-top: 80;
+  line-height: 0.05;
+  min-width: 600px;
+}
+
+.banner {
+  height: 36rem;
+  background-image: url("./resources/banner3.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.banner h4 {
+  font-family: "Playlist Script", sans-serif;
+  font-size: 70px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+.about-me {
+  background-color: #EAAD5A;
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+
+.about-me h4 {
+  font-family: "Playlist Script", sans-serif;
+  font-size: 1.8rem;
+  line-height: .5px;
+  padding-bottom: 0px;
+}
+
+.about-me p {
+  width: 52%
+  margin-top: 12.5%
+  margin-bottom: 7.5%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.8;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+}
+
+.footer {
+  margin: auto;
+  padding-bottom: 0;
+}
