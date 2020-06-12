@@ -1,0 +1,26 @@
+.programmer {
+  font-size: 12px;
+  padding: 10px;
+  line-height: 5px;
+}
+
+.container {
+  padding: 10px;
+  float: right;
+}
+
+table {
+  margin: 20px auto;
+}
+
+td {
+  width: 300px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
